@@ -16,17 +16,19 @@ This project implements an end-to-end LSTM (Long Short-Term Memory) neural netwo
 
 ## Installation
 
+1.Clone the reposiroty :
+```bash
 git clone https://github.com/Aamir2424/smci-stock-predictor.git
-
--cd smci-stock-predictor
--pip install yfinance pandas numpy scikit-learn ta matplotlib seaborn tensorflow
-
-
-## Usage
-
-Run the complete workflow (training + prediction) with:
+cd smci-stock-predictor
+```
+Install dependencies:
+```bash
+pip install yfinance pandas numpy scikit-learn ta matplotlib seaborn tensorflow
+```
+# Run the script
+```bash
 python stock_analysis.py
-
+```
 
 ## Technologies / Built With
 
